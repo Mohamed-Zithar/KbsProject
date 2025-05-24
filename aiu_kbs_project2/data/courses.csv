@@ -1,0 +1,34 @@
+coursecode,coursename,description,prerequisites,corequisites,credithours,semester
+CSE014,Structured Programming,"Introduces programming fundamentals using structured paradigms (loops, functions, arrays) in a high-level language (e.g., C).",,,3,Fall
+CSE015,Object Oriented Programming,"Covers OOP principles (classes, inheritance, polymorphism) and design patterns using languages like Java or Python.",CSE014,,3,Spring
+PHY211,Physics II,"Focuses on electromagnetism, optics, and modern physics, with lab components for applied experiments.",,,3,Fall
+MAT111,Mathematics I,"Calculus-based course covering limits, derivatives, integrals, and applications in engineering.",,,3,Fall
+MAT131,Probability & Statistics I,"Introduces probability theory, distributions, and basic statistical inference.",,,3,Spring
+CSE315,Discrete Mathematics,"Covers logic, set theory, combinatorics, and graph theory with applications to computer science.",,,3,Spring
+MAT112,Mathematics II,"Advanced calculus topics: multivariable functions, series, and differential equations.",MAT111,,3,Spring
+CSE111,Data Structures,"Explores linear/non-linear data structures (lists, trees, graphs) and algorithms for manipulation.",CSE015,,3,Fall
+CSE131,Logic Design,"Digital logic fundamentals: Boolean algebra, combinational/sequential circuits, and FPGA basics.",,,3,Fall
+MAT231,Probability & Statistics II,"Advanced topics: regression, hypothesis testing, and stochastic processes.",MAT131,,3,Fall
+AIE111,Artificial Intelligence,"Introduces AI concepts: search algorithms, knowledge representation, and rule-based systems.",CSE015,,3,Fall
+MAT212,Linear Algebra,"Matrix operations, vector spaces, eigenvalues, and applications in computer graphics/ML.",,,3,Fall
+CSE211,Web Programming,"Front-end (HTML/CSS/JS) and back-end (e.g., Node.js) development for web applications.",CSE015,,3,Spring
+CSE221,Database Systems,"Relational database design (SQL), normalization, and NoSQL basics.",CSE111,,3,Spring
+CSE132,Computer Architecture and Organization,"CPU design, memory hierarchy, pipelining, and assembly language fundamentals.",CSE131,,3,Spring
+MAT312,Differential Equations,"Solutions to ODEs/PDEs, Laplace transforms, and modeling physical systems.",MAT112,,3,Spring
+CSE191,Field Training 1 In Computer Science,Practical industry training: software development lifecycle and teamwork.,,,2,Spring
+CSE251,Software Engineering,"SDLC methodologies (Agile, Waterfall), UML modeling, and project management.",CSE015,,3,Spring
+CSE261,Computer Networks,"OSI/TCP-IP models, routing protocols, socket programming, and network security basics.",CSE132,,3,Fall
+CSE281,Image Processing,"Techniques for image enhancement, filtering, and compression using tools like OpenCV.",MAT212,,3,Fall
+AIE121,Machine Learning,"Supervised/unsupervised learning (regression, classification, clustering) with Python/R.",AIE111,,3,Fall
+CSE233,Operating Systems,"Process scheduling, memory management, file systems, and concurrency.",CSE111,,3,Fall
+CSE112,Design and Analysis of Algorithms,"Algorithmic paradigms (divide-and-conquer, dynamic programming) and complexity analysis.",CSE111,,4,Spring
+CSE292,Field Training 2 Computer Science,"Advanced industry placement focusing on specialized CS roles (e.g., DevOps, AI).",CSE191,,2,Spring
+CSE382,Computer Graphics,"2D/3D rendering, transformations, and GPU programming with APIs like OpenGL.",CSE281,,3,Spring
+CSE352,System Analysis & Design,"Requirements engineering, system modeling, and architecture design.",CSE251,,3,Spring
+CSE363,Cloud Computing,"Cloud service models (IaaS/PaaS/SaaS), virtualization, and deployment (AWS/Azure).",CSE261,,3,Fall
+CSE383,Computer Vision,"Feature extraction, object detection, and deep learning for vision tasks (CNNs).",CSE281,,3,Fall
+CSE493,Graduation Project 1,"Capstone project: proposal, literature review, and initial implementation.",,,3,Fall
+AIE323,Data Mining,"Pattern discovery, association rules, and big data tools (e.g., Hadoop, Spark).",AIE121,,3,Fall
+CSE484,Interactive Multimedia,"Design of multimedia systems (audio/video processing, VR/AR fundamentals).",CSE382,,3,Spring
+CSE494,Graduation Project 2,"Final project phase: full implementation, testing, and documentation.",CSE493,,3,Spring
+CSE411,Theory of Computation & Compilers,"Formal languages, automata theory, and compiler design basics.",CSE014,,3,Spring
