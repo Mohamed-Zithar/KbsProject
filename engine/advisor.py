@@ -41,7 +41,7 @@ class CourseAdvisor(KnowledgeEngine):
             course["code"] = code
             course["credit_hours"] = int(course["credithours"])
 
-            # ✅ Fix: Use pd.isna to avoid string 'nan' bugs
+           
             prereq_raw = course.get("prerequisites")
             coreq_raw = course.get("corequisites")
             prereqs = [] if pd.isna(prereq_raw) else [p.strip() for p in str(prereq_raw).split(',') if p.strip()]
